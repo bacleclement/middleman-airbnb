@@ -1,0 +1,16 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar" %>
+<p><%= flat.name %></p>
+<h1><%= flat.description %></h1>
+<p><%= flat.city_name %></p>
+<p><%= flat.rating %></p>
+<% if flat.wifi %>
+<h2>WIFI</h2>
+<% else %>
+<h2>NO WIFI</h2>
+<% end %>

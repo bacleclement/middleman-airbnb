@@ -1,0 +1,63 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+jeanmichel:
+  name: Jean Michel's home
+  description: Super home
+  city_name: "Lille, France"
+  city_slug: "london"
+  wifi: False
+  rating: 5
+fifi:
+  name: lolo
+  description: Super home
+  city_name: "Lille, France"
+  city_slug: "london"
+  wifi: False
+  rating: 5
+loulou:
+  name: Rhooo
+  description: Super home
+  city_name: "Lille, France"
+  city_slug: "london"
+  wifi: False
+  rating: 5
+rififi:
+  name: Micky
+  description: Super home
+  city_name: "Lille, France"
+  city_slug: "london"
+  wifi: False
+  rating: 5
+rififi:
+  name: Micky
+  description: Super home
+  city_name: "Lille, France"
+  city_slug: "london"
+  wifi: False
+  rating: 5
+rififi:
+  name: Micky
+  description: Super home
+  city_name: "Lille, France"
+  city_slug: "london"
+  wifi: False
+  rating: 5
