@@ -1,7 +1,7 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "logo.png", alt: "logo"%>
+    <h2 style="text-decoration: none; color: #FFF">Le Wallon</h2>
   </a>
 
   <!-- Right Navigation -->
@@ -32,9 +32,10 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+        <%= link_to "Team", "/about.html"%>
+        <%= link_to "Host", "#", class: "navbar-wagon-item navbar-wagon-link"%>
+        <%= link_to "Trips", "#", class: "navbar-wagon-item navbar-wagon-link"%>
+        <%= link_to "Messages", "#", class: "navbar-wagon-item navbar-wagon-link"%>
       </ul>
     </div>
   </div>
